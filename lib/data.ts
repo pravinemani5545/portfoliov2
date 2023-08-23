@@ -64,20 +64,12 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'Gericht',
-    description: 'Gericht, your destination for fine dining.',
-    github: 'https://github.com/pravinemani5545/gericht',
-    link: 'https://gericht-pravinemani5545.vercel.app/',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-    imageUrl: gericht,
-  },
-  {
     title: 'Prompty',
     description:
       'Looking to share or find some of the best AI chatbot prompts, look no further!',
     github: 'https://github.com/pravinemani5545/prompty',
     link: 'https://prompty-pravinemani5545.vercel.app/',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
+    tags: ['Next.js', 'OAuth', 'Tailwind', 'MongoDB'],
     imageUrl: prompty,
   },
   {
@@ -85,7 +77,7 @@ export const projectsData = [
     description: 'Car Hub is the best application to rent out cars from.',
     github: 'https://github.com/pravinemani5545/CarRents',
     link: 'https://car-rents-pravinemani5545.vercel.app/',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
+    tags: ['Next.js', 'TypeScript', 'Tailwind', 'API'],
     imageUrl: carHub,
   },
   {
@@ -93,8 +85,16 @@ export const projectsData = [
     description: 'Rank and save all your favourite TV Shows & Movies',
     github: 'https://github.com/pravinemani5545/usePopcorn',
     link: 'https://use-popcorn-pravinemani5545.vercel.app/',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
+    tags: ['React', 'API'],
     imageUrl: usePopcorn,
+  },
+  {
+    title: 'Gericht',
+    description: 'Gericht, your destination for fine dining.',
+    github: 'https://github.com/pravinemani5545/gericht',
+    link: 'https://gericht-pravinemani5545.vercel.app/',
+    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
+    imageUrl: gericht,
   },
   {
     title: 'DormBuddy',
