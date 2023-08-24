@@ -40,15 +40,23 @@ export const experiencesData = [
     title: 'Computer Engineering Undergrad',
     location: 'Hamilton, ON',
     description:
-      'Started my long journey as a Computer Engineering undergrad. Currently in my 2nd last year of my program.',
+      'Started my journey as a Computer Engineering undergrad at McMaster University. Currently in my 2nd last year of my program.',
     icon: React.createElement(LuGraduationCap),
     date: '2019',
+  },
+  {
+    title: 'Frontend Intern',
+    location: 'Toronto, ON',
+    description:
+      'Started working as an intern with my day to day primarily consisting of working on UI/UX design and working on various frontend components in React ',
+    icon: React.createElement(CgWorkAlt),
+    date: '2021',
   },
   {
     title: '5G Software Developer Co-op',
     location: 'Ottawa, ON',
     description:
-      'I worked on a 5G feature called Carrier Aggregation. My day to day included unit-testing and working on features. Worked primarily in Golang.',
+      'I worked on a 5G feature called Carrier Aggregation. My day to day included unit-testing and working on various features. Worked primarily in Golang.',
     icon: React.createElement(CgWorkAlt),
     date: '2022',
   },
@@ -56,7 +64,7 @@ export const experiencesData = [
     title: 'Full-Stack Developer',
     location: 'Toronto, ON',
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Mongoose and MongoDB. I'm open to part-time and full-time opportunities.",
+      "Continued my web development journey by learning backend and database technologies. I'm now a full-stack developer seeking work. My stack includes React, Next.js, TypeScript, Tailwind, Mongoose and MongoDB. I'm open to part-time opportunities.",
     icon: React.createElement(FaReact),
     date: '2023 - present',
   },
