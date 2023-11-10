@@ -5,8 +5,8 @@ import { LuGraduationCap } from 'react-icons/lu';
 import gericht from '@/public/gericht.png';
 import prompty from '@/public/prompty.png';
 import carHub from '@/public/carHub.png';
-import usePopcorn from '@/public/usePopcorn.png';
-import dormBuddy from '@/public/dormBuddy.png';
+import pricescraper from '@/public/pricescraperr.png';
+import threads from '@/public/threads.png';
 
 export const links = [
   {
@@ -72,9 +72,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'Prompty',
+    title: 'Threads',
     description:
-      'Looking to share or find some of the best AI chatbot prompts, look no further!',
+      'Web clone version of the popular text based social networking platform Threads.',
+    github: 'https://github.com/pravinemani5545/threads',
+    link: 'https://threads-pravinemani5545.vercel.app/',
+    tags: ['Next.js', 'TypeScript', 'Tailwind', 'MongoDB', 'Clerk'],
+    imageUrl: threads,
+  },
+  {
+    title: 'PriceScraper',
+    description: 'A tool to monitor and compare prices of products on Amazon',
+    github: 'hhttps://github.com/pravinemani5545/PriceScraper',
+    link: 'https://price-scraper-pravinemani5545.vercel.app/',
+    tags: ['Next.js', 'Tailwind', 'MongoDB', 'Cheerio', 'Puppeteer'],
+    imageUrl: pricescraper,
+  },
+  {
+    title: 'Prompty',
+    description: 'Tool to share or find some of the best AI chatbot prompts',
     github: 'https://github.com/pravinemani5545/prompty',
     link: 'https://prompty-pravinemani5545.vercel.app/',
     tags: ['Next.js', 'OAuth', 'Tailwind', 'MongoDB'],
@@ -82,35 +98,20 @@ export const projectsData = [
   },
   {
     title: 'CarHub',
-    description: 'Car Hub is the best application to rent out cars from.',
+    description:
+      'Car Hub is a simple application to find details of and rent out cars from.',
     github: 'https://github.com/pravinemani5545/CarRents',
     link: 'https://car-rents-pravinemani5545.vercel.app/',
-    tags: ['Next.js', 'TypeScript', 'Tailwind', 'API'],
+    tags: ['Next.js', 'TypeScript', 'Tailwind', 'Opensource API'],
     imageUrl: carHub,
-  },
-  {
-    title: 'usePopcorn',
-    description: 'Rank and save all your favourite TV Shows & Movies',
-    github: 'https://github.com/pravinemani5545/usePopcorn',
-    link: 'https://use-popcorn-pravinemani5545.vercel.app/',
-    tags: ['React', 'API'],
-    imageUrl: usePopcorn,
   },
   {
     title: 'Gericht',
     description: 'Gericht, your destination for fine dining.',
     github: 'https://github.com/pravinemani5545/gericht',
     link: 'https://gericht-pravinemani5545.vercel.app/',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
+    tags: ['React', 'Tailwind'],
     imageUrl: gericht,
-  },
-  {
-    title: 'DormBuddy',
-    description: 'Find University Rental opportunities near you!',
-    github: 'https://github.com/pravinemani5545/CarRents',
-    link: 'https://car-rents-pravinemani5545.vercel.app/',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-    imageUrl: dormBuddy,
   },
 ] as const;
 
