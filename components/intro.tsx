@@ -31,7 +31,7 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            <div className='mx-auto bg-gradient-to-b from-purple-300 rounded-full object-cover border-[0.2rem] border-white shadow-xl w-68 h-68 relative overflow-hidden md:h-80 md:w-80'>
+            <div className='mx-auto bg-gradient-to-b from-purple-300 rounded-full object-cover border-[0.2rem] border-white shadow-xl w-80 h-80 relative overflow-hidden md:h-96 md:w-96'>
               <Image src={profile} layout='fill' objectFit='cover' alt='' />
             </div>
           </motion.div>

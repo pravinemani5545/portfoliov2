@@ -40,35 +40,44 @@ export const experiencesData = [
     title: 'Computer Engineering Undergrad',
     location: 'Hamilton, ON',
     description:
-      'Started my journey as a Computer Engineering undergrad at McMaster University. Currently in my 2nd last year of my program.',
+      'Pursuing a Bachelor of Computer Engineering and Management at McMaster University. Gaining expertise in full-stack development, system architecture, cloud computing, and embedded systems. Developed multiple personal projects, including a price-scraper and a social media platform clone.',
     icon: React.createElement(LuGraduationCap),
-    date: '2019',
+    date: '2019 - Present',
   },
   {
-    title: 'Frontend Intern',
-    location: 'Toronto, ON',
+    title: 'Frontend Developer Co-op',
+    location: 'SnapSmile, Toronto, ON',
     description:
-      'Started working as an intern with my day to day primarily consisting of working on UI/UX design and working on various frontend components in React ',
+      'Worked on UI/UX development using React, building interactive and responsive front-end components. Gained experience with component-based architecture, state management (Redux), and design systems. Developed reusable UI libraries and collaborated with designers in Figma to enhance user experience.',
     icon: React.createElement(CgWorkAlt),
     date: '2021',
   },
   {
     title: '5G Software Developer Co-op',
-    location: 'Ottawa, ON',
+    location: 'Ericsson, Ottawa, ON',
     description:
-      'I worked on a 5G feature called Carrier Aggregation. My day to day included unit-testing and working on various features. Worked primarily in Golang.',
+      'Worked on Carrier Aggregation in 5G networks, focusing on improving signal efficiency in mid-band frequencies. Developed microservices in Golang, wrote unit tests, and optimized cloud-based RAN (Radio Access Network) architecture. Integrated CI/CD pipelines with Jenkins, GCOV, and SonarQube, ensuring 90%+ test coverage. Conducted system debugging and performance optimization for large-scale distributed networks.',
     icon: React.createElement(CgWorkAlt),
     date: '2022',
   },
   {
-    title: 'Full-Stack Developer',
-    location: 'Toronto, ON',
+    title: 'Full-Stack Developer Co-op',
+    location: 'Imprimo, Toronto, ON',
     description:
-      "Continued my web development journey by learning backend and database technologies. I'm now a full-stack developer seeking work. My stack includes React, Next.js, TypeScript, Tailwind, Mongoose and MongoDB. I'm open to part-time opportunities.",
+      'Designed and developed new features for a digital art licensing platform. Implemented a custom user-generated Stories feature in React Native, integrating modular UI components and RESTful APIs using Node.js. Optimized PostgreSQL database queries and migrations, reducing response times by 30%. Developed and deployed a real-time chat system using PubNub, improving communication reliability across devices. Led UI enhancements using Tailwind CSS and Framer Motion to improve cross-device compatibility and user engagement.',
     icon: React.createElement(FaReact),
-    date: '2023 - present',
+    date: '2024',
+  },
+  {
+    title: 'Mobile Developer (Part-time)',
+    location: 'Fixvi, Ottawa, ON',
+    description:
+      'Developed an automated scheduling system in React Native using Sendbird, integrating webhooks, bot-driven prompts, and interactive polls to improve workflow efficiency. Led Android porting efforts by modifying native code and optimizing Gradle configurations for compatibility with the latest Android firmware. Implemented push notifications using Customer.io to manage Firebase Cloud Messaging (FCM) and Apple Push Notification Service (APNs), increasing user engagement by 40%. Collaborated with backend engineers to ensure seamless API integrations and real-time updates.',
+    icon: React.createElement(FaReact),
+    date: '2024',
   },
 ] as const;
+
 
 export const projectsData = [
   {
@@ -125,15 +134,29 @@ export const skillsData = [
   'Node.js',
   'Express',
   'Git',
-  'Tailwind',
+  'Tailwind CSS',
   'Prisma',
   'MongoDB',
   'Mongoose',
+  'PostgreSQL',
   'Redux',
-  'Express',
   'Python',
   'Golang',
   'Framer Motion',
+  'Docker',
+  'REST API',
+  'gRPC',
+  'CI/CD',
+  'Jenkins',
+  'AWS (S3, EC2, DynamoDB)',
+  'Firebase',
+  'SonarQube',
+  'Customer.io',
+  'Sendbird',
+  'Webhooks',
+  'Cloud Computing',
   'Responsive Design',
+  'System Architecture',
   'Figma',
+  'Project Management',
 ] as const;
